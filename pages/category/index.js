@@ -21,17 +21,17 @@ Page({
     request({
       url: "/categories"
     }).then(res => {
-      const { message } = res.data;
+      const {message} = res.data;
 
       this.setData({
         navs: message
       })
     })
-  },
+  },  
 
   //  菜单栏点击时候触发
-  handleChange(event) {
-    const { index } = event.currentTarget.dataset;
+  handleChange(event){
+    const {index} = event.currentTarget.dataset;
 
     this.setData({
       current: index

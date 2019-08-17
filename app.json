@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/category/index",
     "pages/cart/index",
-    "pages/personal/index"
+    "pages/personal/index",
+    "pages/search_list/index"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -11,15 +12,15 @@
     "navigationBarTitleText": "黑马优购",
     "navigationBarTextStyle": "white"
   },
-  "tabBar":{
-    "selectedColor":"#ff2d4a",
-    "borderStyle":"black",
-    "list":[
-        {
-          "pagePath":"pages/index/index",
-          "text":"首页",
-          "iconPath":"./images/icon_home@3x.png",
-          "selectedIconPath":"./images/icon_home_active@3x.png"
+  "tabBar": {
+    "selectedColor": "#ff2d4a",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/icon_home@3x.png",
+        "selectedIconPath": "./images/icon_home_active@3x.png"
       },
       {
         "pagePath": "pages/category/index",
